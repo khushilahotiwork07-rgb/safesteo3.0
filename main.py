@@ -37,7 +37,7 @@ from page_modules.helpers import *
 from page_modules.login import *
 from page_modules.patient_detail import *
     
-)
+
 from utils.helpers import PRIMARY, TEXT_DARK, TEXT_GREY, BORDER, BG_LIGHT, inject_global_css
 from alerts import get_unacknowledged_count
 
