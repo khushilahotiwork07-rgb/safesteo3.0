@@ -30,13 +30,13 @@ def _init_system():
 _init_system()
 
 # ── Page imports ───────────────────────────────────────────────────────────────
-from page_modules import (     # noqa: E402
-    ward_overview,
-    patient_detail,
-    active_alerts,
-    alert_history,
-    handover_summary,
-    login,
+from page_modules.active_alerts import *
+from page_modules.add_patient import *
+from page_modules.alert_history import *
+from page_modules.helpers import *
+from page_modules.login import *
+from page_modules.patient_detail import *
+    
 )
 from utils.helpers import PRIMARY, TEXT_DARK, TEXT_GREY, BORDER, BG_LIGHT, inject_global_css
 from alerts import get_unacknowledged_count
